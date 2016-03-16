@@ -28,6 +28,7 @@
 
 #include <libxfce4util/xfce-debug.h>
 #include <libxfce4util/xfce-fileutils.h>
+#include <libxfce4util/xfce-firejail-utils.h>
 #include <libxfce4util/xfce-generics.h>
 #include <libxfce4util/xfce-i18n.h>
 #include <libxfce4util/xfce-kiosk.h>
