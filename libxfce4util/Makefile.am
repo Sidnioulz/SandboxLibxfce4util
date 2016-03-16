@@ -21,6 +21,7 @@ lib_LTLIBRARIES =							\
 libxfce4util_headers =							\
 	xfce-debug.h							\
 	xfce-fileutils.h						\
+	xfce-firejail-utils.h 				\
 	xfce-generics.h							\
 	xfce-i18n.h							\
 	xfce-kiosk.h							\
@@ -49,6 +50,7 @@ libxfce4util_la_SOURCES =						\
 	libxfce4util-private.c						\
 	libxfce4util-private.h						\
 	xfce-fileutils.c						\
+	xfce-firejail-utils.c 				\
 	xfce-i18n.c							\
 	xfce-kiosk.c							\
 	xfce-license.c							\
