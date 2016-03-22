@@ -157,3 +157,11 @@ xfce_utf8_strndup G_GNUC_MALLOC
 #endif
 #endif
 
+/* xfce-firejail-utils functions */
+#if IN_HEADER(__XFCE_FIREJAIL_UTILS_H__)
+#if IN_SOURCE(__XFCE_FIREJAIL_UTILS_C__)
+xfce_get_firejail_profile_names G_GNUC_MALLOC
+xfce_get_firejail_profile_for_name G_GNUC_MALLOC
+#endif
+#endif
+
